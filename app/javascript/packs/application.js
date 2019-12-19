@@ -7,9 +7,12 @@ import 'bootstrap'
 Rails.start()
 
 
+require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-require('jquery')
+require('jquery') 
 
-
+//= require jquery/dist/jquery.js // 
+  //= require popper.js/dist/popper.js // 
+  //= require bootstrap/dist/js/bootstrap.js //
